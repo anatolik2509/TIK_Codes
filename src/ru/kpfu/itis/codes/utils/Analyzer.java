@@ -1,4 +1,4 @@
-package ru.kpfu.itis.codes.fano;
+package ru.kpfu.itis.codes.utils;
 
 import java.io.IOException;
 import java.io.Reader;

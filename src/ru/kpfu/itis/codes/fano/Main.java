@@ -1,15 +1,14 @@
 package ru.kpfu.itis.codes.fano;
 
 
+import ru.kpfu.itis.codes.utils.Analyzer;
+
 import java.io.*;
-import java.nio.charset.StandardCharsets;
-import java.util.Arrays;
 import java.util.Map;
-import java.util.TreeMap;
 
 public class Main {
 
-    public static final int BLOCK_SIZE = 1;
+    public static final int BLOCK_SIZE = 2;
 
     public static void main(String[] args) throws IOException {
         Reader reader = new FileReader("input.txt");
